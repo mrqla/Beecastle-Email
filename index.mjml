@@ -1,0 +1,277 @@
+<mjml>
+<mj-head>
+<mj-preview>Your Order Confirmed! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</mj-preview>
+    <mj-attributes>
+
+        /* bacground colors */
+        <mj-class name="light-blue" background-color="#F9FBFC" />
+
+
+        /* font styles */
+        <mj-class name="h-1" font-size="22px;" font-weight="bold" color="#364051"/>
+        <mj-class name="h-2" font-size="12px" font-weight="bold" color="#3a4556" />
+        <mj-class name="h-3" font-size="12px" font-weight="bold" color="#b8bdc5" />
+        <mj-class name="h-4" font-size="14px" font-weight="bold" color="#364051" />
+        <mj-class name="h-5" font-size="12px" font-weight="bold" color="#A8ACB2" />
+        <mj-class name="p-1" font-size="12px" line-height="18px" color="#303b4b"/>
+        
+
+        /* MJML Attributes */
+        <mj-section padding="0" />
+        <mj-image padding="0" />
+        <mj-text font-family="arial, helvetica, sans-serif" padding="0" />
+        <mj-divider border-color="#E5E7EB" border-width="1px" padding="20px" />
+
+    </mj-attributes>
+
+    <mj-style>
+        @media (max-width: 480px){
+            .mobile{
+                padding-bottom: 15px !important;
+            }
+            .footer-center{
+                text-align: center !important;
+                padding-bottom: 5px !important;
+            }
+        }
+    </mj-style>
+</mj-head>
+
+    <mj-body background-color="#E2E5E6">
+        
+        <!-- spacer -->
+        <mj-section>
+            <mj-column>
+                <mj-spacer height="50px" />
+            </mj-column>
+        </mj-section>
+
+        <!-- logo header -->
+        <mj-section mj-class="light-blue" border-radius="15px 15px 0 0" padding="18px">
+            <mj-raw>
+                <img src="https://i.imgur.com/S0Lrd9K.png" style="width: 90px;"/>
+            </mj-raw>
+        </mj-section>
+
+        <!-- order confirmed -->
+        <mj-section background-color="white">
+            <mj-column padding="20px 20px 0 20px">
+                <mj-text mj-class="h-1">
+                    Your Order Confirmed! 
+                </mj-text>
+                <mj-text mj-class="h-2" padding-top="20px">
+                    Hi Whitney,
+                </mj-text>
+                <mj-text mj-class="p-1" padding-top="10px">
+                    Your order has been confirmed and will be shipping soon.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- divider -->
+        <mj-section background-color="#ffffff">
+            <mj-column>
+                <mj-divider  />
+            </mj-column>
+        </mj-section>
+
+
+        <!-- order details -->
+        <mj-section background-color="#ffffff" >
+            <mj-column padding-right="20px" padding-left="20px">
+                <mj-text mj-class="h-3">
+                    Order Date
+                </mj-text>
+                <mj-text mj-class="p-1" padding-top="8px">
+                    <div class="mobile">26 May, 2021</div>
+                </mj-text>
+            </mj-column>
+            <mj-column padding-right="20px" padding-left="20px">
+                <mj-text mj-class="h-3">
+                    Order Number
+                </mj-text>
+                <mj-text mj-class="p-1" padding-top="8px" >
+                    <div class="mobile">BK986011853</div>
+                </mj-text>
+            </mj-column>
+            <mj-column padding-right="20px" padding-left="20px">
+                <mj-text mj-class="h-3">
+                    Payment
+                </mj-text>
+                <mj-text mj-class="p-1" padding-top="8px" >
+                    <div class="mobile">Visa -4699</div>
+                </mj-text>
+            </mj-column>
+            <mj-column padding-right="20px" padding-left="20px">
+                <mj-text mj-class="h-3">
+                    Address
+                </mj-text>
+                <mj-text mj-class="p-1" padding-top="8px" >
+                    8502 Preston Road
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- divider -->
+        <mj-section background-color="#ffffff">
+            <mj-column>
+                <mj-divider  />
+            </mj-column>
+        </mj-section>
+
+
+        <!-- product details -->
+        <mj-section background-color="#ffffff" padding-left="20px" padding-right="20px">
+            <mj-group>
+                <mj-column vertical-align="middle" width="15%" >
+                    <mj-image src="https://i.imgur.com/Je76RoK.png" alt="Complete Bee Hive Starter Kit" width="66px" border="1px solid #E5E7EB" />
+                </mj-column>
+                <mj-column vertical-align="middle" width="45%" padding-left="20px">
+                    <mj-text mj-class="h-4">
+                        Complete Bee Hive Starter Kit
+                    </mj-text>
+                    <mj-text mj-class="h-5" padding-top="15px">
+                        BeeCastle Hives
+                    </mj-text>
+                </mj-column>
+                <mj-column vertical-align="middle" width="20%">
+                    <mj-text align="right" mj-class="p-1">
+                        Qty 1
+                    </mj-text>
+                </mj-column>
+                <mj-column vertical-align="middle" width="20%">
+                    <mj-text align="right" mj-class="p-1">
+                        $199.99
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+
+        <!-- divider -->
+        <mj-section background-color="#ffffff">
+            <mj-column>
+                <mj-divider padding-bottom="25px" />
+            </mj-column>
+        </mj-section>
+
+
+        <!-- subtotal details -->
+        <mj-section background-color="#ffffff" padding-left="20px" padding-right="20px" padding-bottom="10px">
+            <mj-column>
+                <mj-text mj-class="p-1">
+                    Subtotal
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-text mj-class="p-1" align="right">
+                    $199.99
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color="#ffffff" padding-left="20px" padding-right="20px" padding-bottom="10px">
+            <mj-column>
+                <mj-text mj-class="p-1">
+                    Express Shipping
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-text mj-class="p-1" align="right">
+                    $6.99
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color="#ffffff" padding-left="20px" padding-right="20px" padding-bottom="10px">
+            <mj-column>
+                <mj-text mj-class="p-1">
+                    Taxes
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-text mj-class="p-1" align="right">
+                    $13.99
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color="#ffffff" padding-left="20px" padding-right="20px" padding-bottom="10px">
+            <mj-column>
+                <mj-text mj-class="p-1">
+                    Discount (SAVE20)
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-text mj-class="p-1" align="right">
+                    <span style="color: #16B8A8">- 20% ($39.99)</span>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+
+        <!-- divider -->
+        <mj-section background-color="#ffffff">
+            <mj-column>
+                <mj-divider padding-bottom="25px" />
+            </mj-column>
+        </mj-section>
+
+
+        <!-- total price -->
+        <mj-section background-color="#ffffff" padding-left="20px" padding-right="20px" padding-bottom="10px">
+            <mj-column>
+                <mj-text mj-class="h-2">
+                    Total
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-text mj-class="h-2" align="right">
+                    $180.98
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- divider -->
+        <mj-section background-color="#ffffff">
+            <mj-column>
+                <mj-divider padding-bottom="25px" />
+            </mj-column>
+        </mj-section>
+
+
+        <!-- footer message -->
+        <mj-section background-color="#ffffff" padding-left="20px" padding-right="20px" padding-bottom="10px">
+            <mj-column>
+                <mj-text mj-class="p-1" padding-bottom="20px">
+                    We'll send you shipping confirmation when your item(s) are on the way! We appreciate your business, and hope you enjoy your purchase.
+                </mj-text>
+                <mj-text mj-class="h-2" padding-bottom="15px">
+                    Thank you!
+                </mj-text>
+                <mj-text mj-class="p-1" padding-bottom="20px">
+                    Beekeeper Supplies
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section mj-class="light-blue" padding="20px" border-radius="0 0 15px 15px">
+            <mj-column>
+                <mj-text mj-class="p-1">
+                    <div class="footer-center">Questions? Contact our <a href="https://google.com" style="text-decoration: none; color: #5147DA"><span>Customer Support</span></a></div>
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-text mj-class="p-1" align="right" color="#9BA3AE">
+                    <div class="footer-center">© 2021 Beekeeper Supplies</div>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- spacer -->
+        <mj-section>
+            <mj-column>
+                <mj-spacer height="50px" />
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
